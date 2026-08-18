@@ -1,11 +1,7 @@
 const images =[
     "せせらぎ不動産.png",
-    "ima3.jpg",
-    "ima4.jpg",
-    "ima5.jpg",
-    "ima6.jpg",
-    "ima7.jpg",
-    "ima8.jpg"
+    "img2.jpg",
+    "img3.jpg",
 ];
 let index = 0;
 
