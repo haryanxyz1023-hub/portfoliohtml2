@@ -1,0 +1,295 @@
+@charset "utf-8";
+body{
+	background-color:#ffffff;
+	color:#333333;
+	font-family: "MS ゴシック","Hiragano Sans","sans sesif";
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-size: 95%;
+	line-height: 1.5;
+}
+h1{
+	font-style: 180%;
+}
+h2{
+	font-size: 120%;
+	border-bottom: 1px dashed #224f8d;
+	border-left: 10px solid #224f8d;
+	padding-left: 7px;
+}
+footer{
+	text-align: center;
+	background-color:rgba(26, 124, 96, 0.8) ;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+
+}
+article{
+	position: relative;
+	clear: both;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.catch{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	color: #ffffff;
+	text-shadow: 0px 5px 8px #000;
+}
+header{
+	background-color: #1a7c60cc;
+}
+ul{
+	list-style-type:none;
+	padding-left: 0;
+	line-height: 1.5;
+	font-size: 120%;;
+}
+ul li time{
+	border-radius: 15px;
+	background: #a7c9f7;
+	font-size: 90%;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+nav ul{
+	text-align: right;
+	padding-top: 25px;
+	padding-bottom: 5px;
+	margin: 0;
+}
+	
+
+nav li{
+	font-weight: 400;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 12px;
+	border-right: 3px solid;
+}
+header img{
+	float: left;
+}
+.header-in{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sub-h1{
+	background:linear-gradient(to left,#fff,#dcdcdc);
+	padding-top: 5px;
+	padding-left: 10px;
+	border-left: 15px solid #224f8d;
+	margin: 0;
+}
+ol li{
+	display: inline;
+	margin-right: 5px;
+	font-style: 80%;
+}
+ol{
+	padding-left: 0;
+}
+
+.page{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+nav ul a{
+	color: #fff;
+}
+nav ul a:hover{
+	color: #d9a441;
+}
+table{
+	border:solid 1px #333;
+	font-size: 120%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+th{
+	background-color: #a7c9f7;
+	border: 1px solid #333;
+	padding: 10px;
+	width: 20%;
+}
+td{
+	border: 1px solid #333;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+caption{
+	caption-side: bottom;
+}
+
+aside h1{
+	font-size: 120%;
+	border-bottom: 2px dotted #666;
+	padding-left: 5px;
+	margin: 0;
+}
+aside li{
+	border-bottom: dotted 2px #666;
+}	
+aside ul{
+	margin: 0;
+}
+aside a{
+	display: block;
+	color: #333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+aside a:hover{
+	background-color: #dcdcdc;
+}
+.bukkenmei{
+	display: block;
+	font-size: 80%;
+	color: #666;
+}
+.select{
+	background-color: #d9a441;
+}
+.bukken-kiji{
+	float: left;
+	width: 75%;
+}
+aside{
+	float: right;
+}
+.form{
+	display: block;
+	width: 400px;
+}
+textarea{
+	display: block;
+	width: 600px;
+	height: 120px;
+}
+button{
+	width: 180px;
+	height: 50px;
+	padding: 15px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;      
+    max-width: 600px; 
+    height: 400px;    
+
+}
+
+.slider img {
+    width: 100%;      
+    height: 100%;     
+    display: block;
+}
+
+.slider button {
+    position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.4);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* 左ボタン */
+#prev {
+    left: 10px;
+}
+
+/* 右ボタン */
+#next {
+    right: 10px;
+}
+#prev:hover,
+#next:hover {
+    box-shadow: 0 0 10px rgba(255,255,255,0.6); 
+    background: rgba(0,0,0,0.55);               
+    transform: translateY(-50%) scale(1.05);}
+
+
+/*600px以下の場合*/
+@media(max-width:600px){
+	nav li{
+		font-style: 75%;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	footer{
+		font-style: 75%;
+	}
+	.catch{
+		top: 5%;
+		left: 10px;
+	}
+	th,td{
+		display: block;
+		width: auto;
+	}
+	video{
+		max-width: 100%;
+		height: auto;
+	}
+	.form,textarea{
+		width: 300px;
+	}
+}
+
+/*959px以下の場合*/
+@media(max-width:959px) {
+	header img {float:none;
+	}
+	nav ul{
+		text-align: left;
+		padding: 0;
+		margin-left: 10px;
+	}
+	article{
+		width: auto;
+	}
+	article img{
+		min-width: 100%;
+		height: auto;
+	}
+	.header-in{
+		width: auto;
+	}
+	.bukken-kiji{
+		float: none;
+		width: 100%;
+	}
+	aside{
+		font: none;
+	}
+}
+/*印刷用*/
+@media print{
+	.catch{
+		color: #000;
+		text-shadow: none;
+	}
+	footer{
+		color: #000;
+	}
+}
+
