@@ -1,5 +1,5 @@
 const images =[
-    "image/せせらぎ不動産.png",
+    "せせらぎ不動産.png",
     "ima3.jpg",
     "ima4.jpg",
     "ima5.jpg",
