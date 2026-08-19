@@ -83,8 +83,9 @@ header img{
 	margin-left: auto;
 }
 .sub-h1{
-	background:linear-gradient(to left,#fff,#dcdcdc);
+	background:linear-gradient(to left,#fff,# cae2ec);
 	padding-top: 5px;
+	padding-bottom: 5px;
 	padding-left: 10px;
 	border-left: 15px solid #224f8d;
 	margin: 0;
@@ -151,7 +152,7 @@ aside a{
 	padding-left: 5px;
 }
 aside a:hover{
-	background-color: #dcdcdc;
+	background-color: #cae2ec;
 }
 .bukkenmei{
 	display: block;
